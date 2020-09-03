@@ -1,28 +1,30 @@
-Instructions
-Download the project
 
-git clone https://github.com/HugoGeneroso/ChallengeRocketChat
+# Instructions
+Download the project
+> git clone https://github.com/HugoGeneroso/ChallengeRocketChat
 
 Install dependencies:
-npm install
+`npm install`
 
 Start the project or run the unit tests
-npm run start
+`npm run start` 
 
 To run the unit tests:
-npm test
+` npm test `
 
 To test the api Endpoint as stated on the bonus list on number 3:
-npm start
+` npm start `
 
 Then you just need to make a POST request localhost:3000/analyzeTasks (I have used postman) with the parameter inputString as the input for the string that is going to be treated.
 
-Aditional Info
+### Aditional Info
 Thanks for the opportunity to be with you guys!
 
-ChallengeRocketChat
+# ChallengeRocketChat
 Challenge
 Defined goal is to build high-quality training data to fuel AI applications by having users executing tasks like audio to text transcription, image categorization, sentiment annotation, among others. To complete this exercise write a program in JavaScript or TypeScript that calculates the average time spent executing tasks, broken down by user and by country.
+
+
 
 In the first line of the input you can find the number of users in the platform (N). The following N lines contain the ID and country code for each user. Please note that the id of the user is numerical. The line after the ID and the country code of all users contains the number of tasks executed in the platform (T); followed by T lines containing the ID of the task, the ID of the user that executed it and the time spent in the task, in seconds.
 
@@ -43,11 +45,11 @@ https://github.com/sampaiodiego
 Bonus
 Unit tests, they should run via npm test
 CLI file importing your method and reading the input, async, from a given txt file and printing the result
-Add the instructions to test the CLI in your repository’s README
+Add the instructions to test the CLI in your repository's README
 API endpoint analyze/tasks to receive input as POST body and return the output
-Add the instructions to test the API in your repository’s README
-Have your API running at https://vercel.com (it’s free for personal usage)
-Add the instructions to test the API in your repository’s README
+Add the instructions to test the API in your repository's README
+Have your API running at https://vercel.com (it's free for personal usage)
+Add the instructions to test the API in your repository's README
 Surprise us!
 Sample of the input format
 2
