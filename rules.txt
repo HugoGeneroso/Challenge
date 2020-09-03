@@ -1,0 +1,29 @@
+//INPUT
+//N = Number of users in the platform
+2(N)
+//The following N lines contain the ID and country code for each user.
+1(Id user) PT(country code)
+2(Id user) US(country code)
+//The line after all the users and country codes indicates the number of tasks executed in the platform (T). 
+3(T)
+
+1(ID of task) 1(ID of user) 10(Time spent)
+2(ID of task) 1(ID of user) 5(Time spent)
+3(ID of task) 2(ID of user) 10(Time spent)
+//END OF INPUT
+
+
+//OUTPUT
+1(ID of user) 7.50(Time spent by user)
+2(ID of user) 10.00(Time spent by user)
+PT(country code) 7.50(Time spent by country)
+US(country code) 10.00(Time spent by country)
+//END OF OUTPUT
+
+//Important Considerations
+The program should generate the following output:
+The average time spent by users
+The average time spent by country
+Each output should be sorted ascending
+Users and countries without any mention should be included in the output
+The average output should be rounded to the second decimal place

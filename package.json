@@ -1,0 +1,23 @@
+{
+  "name": "challenge-rocket",
+  "version": "1.0.0",
+  "description": "Defined goal is to build high-quality training data to fuel AI applications by having users executing tasks like audio to text transcription, image categorization, sentiment annotation, among others.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "nodemon ./bin/app.js",
+    "start": "nodemon ./bin/app.js"
+  },
+  "author": "Hugo Generoso - https://www.linkedin.com/in/hugoklink/",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
+}
