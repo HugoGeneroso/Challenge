@@ -3,7 +3,7 @@
 Download the project
 > git clone https://github.com/HugoGeneroso/ChallengeRocketChat
 
-Install dependencies:
+Install dependencies:<br />
 `npm install`
 
 Start the project or run the unit tests:
