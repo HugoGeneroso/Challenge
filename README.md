@@ -3,18 +3,17 @@
 Download the project
 > git clone https://github.com/HugoGeneroso/ChallengeRocketChat
 
-Install dependencies:
+Install dependencies:\n
 `npm install`
 
-Start the project or run the unit tests
+Start the project or run the unit tests:\n
 `npm run start` 
 
-To run the unit tests:
+To run the unit tests:\n
 ` npm test `
 
-To test the api Endpoint as stated on the bonus list on number 3:
-` npm start `
-
+To test the api Endpoint as stated on the bonus list on number 3:\n
+` npm start `\n
 Then you just need to make a POST request localhost:3000/analyzeTasks (I have used postman) with the parameter inputString as the input for the string that is going to be treated.
 
 ### Aditional Info
