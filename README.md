@@ -1,7 +1,7 @@
 
 # Instructions
 Download the project
-> git clone https://github.com/HugoGeneroso/ChallengeRocketChat
+> git clone https://github.com/HugoGeneroso/Challenge
 
 Install dependencies:<br />
 `npm install`<br />
